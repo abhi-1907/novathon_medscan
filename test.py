@@ -112,7 +112,7 @@ class PatientRecordProcessor:
                 print("-" * 50)
 
 def main():
-    gemini_api_key = "AIzaSyD2alKChT_ovlqRgzCYPUlN5kl_9dCBcwA"  # Replace with your Gemini API key
+    gemini_api_key = ""  # Replace with your Gemini API key
     processor = PatientRecordProcessor(gemini_api_key)
     processor.process_patient_records(r'D:\novathonnew\records')
 
